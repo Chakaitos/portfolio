@@ -9,6 +9,11 @@ body {
 	font-family: 'Audiowide', cursive;
 }
 
+.subtitle {
+	font-family: 'Audiowide', cursive;
+	font-size: 1.2em;
+}
+
 .container {
 	width: 1000px;
 }
@@ -20,6 +25,10 @@ body {
 .resume {
 	font-family: 'Iceland', cursive;
 	font-size: 1.2em;
+}
+
+#strong-line {
+	border: solid 2px;
 }
 
 /* Images
