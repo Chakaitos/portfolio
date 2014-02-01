@@ -11,7 +11,11 @@ body {
 
 .subtitle {
 	font-family: 'Audiowide', cursive;
-	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.no-bullets {
+	list-style-type: none;
 }
 
 .container {
