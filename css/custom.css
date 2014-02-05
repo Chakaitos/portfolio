@@ -39,6 +39,11 @@ body {
 	width: 1000px;
 }
 
+.footer {
+	width: 1000px;
+	padding: 20px;
+}
+
 .name-intro {
 	margin: 30px 0px 0px 15px;
 }
