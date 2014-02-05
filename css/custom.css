@@ -15,6 +15,22 @@ body {
 	font-size: 1.2em;
 }
 
+.places {
+	color: #ffc754;
+}
+
+.position {
+	color: #ff4444;
+}
+
+.skills {
+	 color: #0088cc;
+}
+
+.main-name {
+	color: #3bbc73;
+}
+
 .no-bullets {
 	list-style-type: none;
 }
