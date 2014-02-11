@@ -7,8 +7,8 @@ body {
 
 .title {
 	font-family: 'Audiowide', cursive;
-	color: #0088cc;
 	font-weight: bold;
+	color: #fff;
 }
 
 .subtitle {
@@ -55,8 +55,57 @@ body {
 	font-size: 1.2em;
 }
 
-#strong-line {
-	border: solid 2px;
+.title-banner {
+	cursor: pointer;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	opacity: 0.5;
+}
+
+.resume-content {
+	display: none;
+}
+
+.resume-highlight {
+	display: block;
+}
+
+.resume-box {
+	background-color: #eee;
+	padding: 15px;
+	margin: 15px;
+	border: 1px solid rgb(240, 242, 244);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#objective {
+	background-color: #62707D;
+}
+
+#summary {
+	background-color: #51B46D;
+}
+
+#skills {
+	background-color: #E0AB18;
+}
+
+#experience {
+	background-color: #E15258;
+}
+
+#education {
+	background-color: #2570A8;
+}
+
+#interests {
+	background-color: #9D8AC7;
 }
 
 /* Images
@@ -74,6 +123,7 @@ body {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	background-color: #666;
 	border: 1px solid #ccc;
-	padding: 2px; 
+	padding: 2px;
+	opacity: 0.15; 
 }
 
