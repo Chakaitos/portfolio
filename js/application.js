@@ -1,17 +1,18 @@
 $(document).ready(function() {
-	$('.title-banner').mouseenter(function() {
+	$('#main-pic').on('mouseover', function() {
+		$(this).fadeTo('slow', 1);
+	});
+
+	$('.projects').on('mouseover', function() {
 		$(this).fadeTo('fast', 1);
 	});
 
-	$('.title-banner').mouseleave(function() {
+	$('.projects').on('mouseleave', function() {
 		$(this).fadeTo('fast', 0.5);
 	});
 
-	$('.resume-box').on('click', function() {
-		$(this).find('.resume-content').slideToggle();
-	});
-
-	$('#main-pic').on('mouseover', function() {
-		$(this).fadeTo('slow', 1);
+	$('.popup').on('click', function(e) {
+		e.preventDefault();
+		$(this).popover('toggle');
 	});
 });

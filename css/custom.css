@@ -1,111 +1,72 @@
-/* Layout
+/* Layout - Navbar & Intro sections
 ===============================================*/
 
 body {
-	padding-top: 100px;
+	padding-top: 50px;
+	width: 100%;
 }
 
-.title {
-	font-family: 'Audiowide', cursive;
-	font-weight: bold;
-	color: #fff;
-}
-
-.subtitle {
-	font-family: 'Audiowide', cursive;
-	font-weight: bold;
-	font-size: 1.2em;
-}
-
-.main-name {
-	color: #3bbc73;
-	font-family: 'Audiowide', cursive;
-	font-weight: bold;
-}
-
-.position {
-	font-family: 'Audiowide', cursive;
-	color: #000;
-	font-weight: bold;
-}
-
-.no-bullets {
-	list-style-type: none;
-}
-
-.black-bullets {
-	list-style-type: disc;
-}
-
-.container {
-	width: 1000px;
-}
-
-.footer {
-	width: 1000px;
-	padding: 20px;
-}
-
-.name-intro {
-	margin: 30px 0px 0px 15px;
-}
-
-.resume {
-	font-family: 'Iceland', cursive;
-	font-size: 1.2em;
-}
-
-.title-banner {
-	cursor: pointer;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-	opacity: 0.5;
-}
-
-.resume-content {
-	display: none;
-}
-
-.resume-highlight {
-	display: block;
-}
-
-.resume-box {
-	background-color: #eee;
+.intro-box {
+	color: #bbb;
+	background-color: #333;
 	padding: 15px;
-	margin: 15px;
-	border: 1px solid rgb(240, 242, 244);
+	margin: 40px;
+	/*border: 1px solid rgb(240, 242, 244);*/
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
 
-#objective {
-	background-color: #62707D;
+.intro {
+  background: #333;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+  z-index: -1; 
 }
 
-#summary {
-	background-color: #51B46D;
+.intro-title {
+	color: #e6cd60;
 }
 
-#skills {
-	background-color: #E0AB18;
+.pronunciation {
+	font-size: 0.5em;
+	color: #16ffbd;
 }
 
-#experience {
-	background-color: #E15258;
+/* Main - Projects & Blog sections
+===============================================*/
+#main a {
+	color: #f7a736;
 }
 
-#education {
-	background-color: #2570A8;
+.main-title {
+	text-align: center;
 }
 
-#interests {
-	background-color: #9D8AC7;
+.divider-line {
+	padding-right:20px; 
+	border-right: 1px solid #ccc;
+}
+
+#blog-section a{
+	text-decoration: none;
+}
+
+.post-title {
+	color: #820314;
+	font-style: italic;
+}
+
+.post-date {
+	float: right;
+	font-size: 0.8em;
+	color: #999;
+}
+
+.main-footer {
+	padding: 20px;
 }
 
 /* Images
@@ -113,8 +74,8 @@ body {
 
 #main-pic {
 	float: right;
-	height: 250px;
-	width: 250px;
+	height: 100%;
+	width: 100%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -124,6 +85,37 @@ body {
 	background-color: #666;
 	border: 1px solid #ccc;
 	padding: 2px;
-	opacity: 0.15; 
+	opacity: 0.25; 
 }
 
+.projects {
+	height: 100%;
+	width: 100%;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+	opacity: 0.5;	
+}
+
+.blog-pics {
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+.sleep {
+	width: 100%;
+}
+
+.sxsw {
+	width: 100%;
+	height: 100%;
+}
+
+/* Media Queries
+===============================================*/
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  #main-pic {
+    display: none;
+  }
+}

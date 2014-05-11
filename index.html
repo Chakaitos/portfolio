@@ -6,8 +6,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -19,273 +17,112 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Jose Borja</a>
+          <a class="navbar-brand" href="#">Chakaitos</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#"><i class="fa fa-home fa-2x fa-fw"></i>Home</a></li>
-            <li><a href="https://github.com/Chakaitos"><i class="fa fa-github fa-2x fa-fw"></i>Github</a></li>
-            <li><a href="http://www.linkedin.com/pub/jose-borja/8b/749/6b0"><i class="fa fa-linkedin-square fa-2x fa-fw"></i>Linked In</a></li>
-            <li><a href="#contact" data-toggle="modal"><i class="fa fa-envelope fa-2x fa-fw"></i>Contact</a></li>
-            </li>
+            <li class="active"><a href="#"><i class="fa fa-home fa-lg fa-fw"></i> Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users fa-lg fa-fw"></i> Social Media <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://twitter.com/Chakaitos"><i class="fa fa-twitter fa-lg fa-fw"></i> Twitter</a></li>
+                <li><a href="https://github.com/Chakaitos"><i class="fa fa-github fa-lg fa-fw"></i> Github</a></li>
+                <li><a href="http://www.linkedin.com/pub/jose-borja/8b/749/6b0"><i class="fa fa-linkedin-square fa-lg fa-fw"></i> Linked In</a></li>
+              </ul></li> 
+            <li><a href="#contact" data-toggle="modal"><i class="fa fa-envelope fa-lg fa-fw"></i> Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- End Navbar -->
-
     <!-- Intro -->
-    <div class="container">
-      <div class="row resume-box">
-        <div class="col-sm-5 name-intro">
-          <h2 class="main-name">Jose R. Borja</h1>
-          <h3 class="position">Full Stack Web Developer</h2>
-          <p class="resume">Miami, FL, USA</p>
-          <a class ="resume" href="mailto:joserborja@gmail.com">joserborja@gmail.com</a>
-        </div>
-        <div class="col-sm-4 col-sm-offset-2">
-          <img id="main-pic" src="img/photo.png">
-        </div>
-      </div>
-      <!-- End Intro -->
-
-      <!-- Objective -->
-      <div class="row resume-box">
-        <div id="objective" class="col-sm-12 title-banner">
-          <h3 class="title">Objective</h3>
-        </div>
-        <hr>
-        <div class="col-sm-12 resume-content">
-          <p class="resume">To obtain a full stack web developer position with a progressive company that will provide professional and educational growth, in which my skills and experience will have a positive impact</p>
-        </div>
-      </div>
-      
-      <!-- End Objective -->
-
-      <!-- Summary of Qualifications -->
-      <div class="row resume-box">
-        <div id="summary" class="col-sm-12 title-banner">
-          <h3 class="title">Summary of Qualifications</h3>
-        </div>
-        <hr>
-        <div class="col-sm-12 resume-content">
-          <ul class="resume">
-            <li>5+ years of experience in the IT field</li>
-            <li>Proven interpersonal and teamwork skills in academic and work environments</li>
-            <li>Demonstrated personal qualities of strong work ethic, goal-oriented and dedicated to excellence</li>
-            <li>Positive attitude and quick learner with the ability to adapt to new challenges</li>
-            <li>Excellent verbal and written communication skills</li>
-            <li>Highly motivated, passionate, and detail-oriented</li>
-            <li>Ability to work independently with minimal or no supervision</li>
-            <li>Demonstrated patience, attentiveness, and excellent customer care services</li>
-            <li>Excellent command of both English and Spanish languages</li>
-          </ul>
-        </div>
-      </div>
-      
-      <!-- End Summary of Qualifications -->
-
-      <!-- Technical Skills -->
-      <div class="row resume-box">
-        <div id="skills" class="col-sm-12 title-banner">
-          <h3 class="title">Technical Skills</h3>
-        </div>
-        <hr>
-        <div class="resume-content">
-          <div class="col-sm-3">
-            <p class="subtitle">Languages</p>
-            <ul class="resume">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>Ruby</li>
-              <li>PHP</li>
-              <li>AJAX</li>
-              <li>SQL</li>
-              <li>Git</li>
-              <li>UNIX Shell</li>
-            </ul>
+    <div class="intro">
+      <div class="container">
+        <div class="row intro-box">
+          <div class="col-sm-7">
+            <h3 class="intro-title">About Me</h3>
+            <p>My name is Jose R. Borja and I am a full stack web developer. I live in Miami, Florida. I'm passionate about technology and web application development. If you would like to see some of my work, take a look at the 'Projects' section. Besides technology I also like most sports, when I'm not writing code I'm probably either practicing one, most likely surfing if the waves are good or having some scotch/beer with my girl or friends.</p>
+            <p>My speciality is back-end development although I do front-end development as well, I'm open for freelancing so if you are interested in working with me you can contact me on twitter or use the contact form. If you are a recruiter and want to talk about any of these projects or other apps I have built, get in touch with me using any of the methods listed in this website.</p>
+            <h3 class="intro-title">What is Chakaitos? <span class="pronunciation">pronounced ("cha-KYE-toss")</span></h3>
+            <p>It is just a nickname that was given to me by one of my cousins when I was young and since then a lot of people call me by that nickname.</p>
           </div>
-          <div class="col-sm-3">
-            <p class="subtitle">Frameworks</p>
-            <ul class="resume">
-              <li>Ruby on Rails</li>
-              <li>Sinatra</li>
-              <li>Backbone</li>
-              <li>Riot</li>
-              <li>Twitter Bootstrap</li>
-              <li>Zurb Foundation</li>
-            </ul>
-            <p class="subtitle">Libraries</p>
-            <ul class="resume">
-              <li>jQuery</li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <p class="subtitle">Testing</p>
-            <ul class="resume">
-              <li>RSpec</li>
-              <li>Cucumber</li>
-              <li>Jasmine</li>
-            </ul>
-            <p class="subtitle">Databases</p>
-            <ul class="resume">
-              <li>SQLite</li>
-              <li>PostgreSQL</li>
-              <li>MySQL</li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <p class="subtitle">Deployment</p>
-            <ul class="resume">
-              <li>Heroku</li>
-            </ul>
-            <p class="subtitle">APIs</p>
-            <ul class="resume">
-              <li>Twitter</li>
-              <li>Facebook</li>
-              <li>Github</li>
-              <li>YouTube</li>
-              <li>Google Maps</li>
-            </ul>
+          <div class="col-sm-4 col-sm-offset-1">
+            <img id="main-pic" src="img/photo.png">
           </div>
         </div>
       </div>
-      
-      <!-- End Technical Skills -->
-      
-      <!-- Experience -->
-      <div class="row resume-box">
-        <div id="experience" class="col-sm-12 title-banner">
-          <h3 class="title">Experience</h3>
-        </div>
-        <hr>
-        <div class="resume-content">
-          <div class="col-sm-9">
-            <ul class="no-bullets">
-              <li class="subtitle">FIU, Student Health Services | Miami, FL</li>
-              <li class="subtitle">Computer Support Specialist</li>
-              <ul class="resume  black-bullets">
-                <li>Maintain UHSC network and troubleshoot all IT/Networking related problems in UHSC domain</li>
-                <li>Installation, configuration, and maintenance of PyraMed5 medical system</li>
-                <li>Provide technical support to 150+ users with hardware, software, and network issues</li>
-                <li>In person, remote, and phone technical support and customer service</li>
-              </ul>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <p class="resume pull-right">Sep 2012 - Present</p>
-          </div>
-
-          <div class="col-sm-9">
-            <ul class="no-bullets">
-              <li class="subtitle">Peak Systems | Miami, FL</li>
-              <li class="subtitle">System Deployment Technician</li>
-              <ul class="resume black-bullets">
-                <li>Perform data migrations from legacy to new technologies for Dell and HP</li>
-                <li>Set up work stations for clients and provide technical support hardware or software issues</li>
-                <li>Install user applications and programs as required</li>
-                <li>Diagnose software and hardware issues and re-image systems as necessary</li>
-              </ul>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <p class="resume pull-right">May 2010 - Present</p>
-          </div>
-
-          <div class="col-sm-9">
-            <ul class="no-bullets">
-              <li class="subtitle">Unisys | Miami, FL</li>
-              <li class="subtitle">Field Service Engineer (IT)</li>
-              <ul class="resume black-bullets">
-                <li>Diagnose and troubleshoot hardware and software problems on desktop and laptop systems</li>
-                <li>Install, replace or upgrade hardware on Dell, Lenovo, and other systems</li>
-                <li>Provide technical support, and assist customers with problems</li>
-                <li>Perform clean Windows installations when required</li>
-              </ul>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <p class="resume pull-right">Jan 2011 - Dec 2011</p>
-          </div>
-
-          <div class="col-sm-9">
-            <ul class="no-bullets">
-              <li class="subtitle">The Academy of South Florida | Miami, FL</li>
-              <li class="subtitle">IT Intern</li>
-              <ul class="resume black-bullets">
-                <li>Configure and deploy systems for the student labs based on the required needs</li>
-                <li>Troubleshoot hardware, software and network issues</li>
-                <li>Set up and manage desktops, network accounts and groups</li>
-                <li>Design and develop websites including academyflorida.com</li>
-              </ul>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <p class="resume pull-right">Sep 2010 - Jan 2011</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- End Experience -->
-
-      <!-- Education -->
-      <div class="row resume-box">
-        <div id="education" class="col-sm-12 title-banner">
-          <h3 class="title">Education</h3>
-        </div>
-        <hr>
-        <div class="col-sm-12 resume-content">
-          <ul class="no-bullets">
-            <li class="subtitle">Florida International University - Miami, FL</li>
-            <ul class="resume">
-              <li class="black-bullets"><strong>MS, Information Technology</strong></li>
-              <li class="no-bullets">2012-2013 - GPA 3.8/4.0</li>
-              <li class="black-bullets"><strong>BBA, Management Information Systems</strong></li>
-              <li class="no-bullets">2006-2010 - GPA 3.3/4.0</li>
-            </ul>
-          </ul>
-        </div>
-      </div>
-      
-      <!-- End Education -->
-
-      <!-- Professional Interests -->
-      <div class="row resume-box">
-        <div id="interests" class="col-sm-12 title-banner">
-          <h3 class="title">Professional Interests</h3>
-        </div>
-        <hr>
-        <div class="col-sm-12 resume-content">
-          <ul class="resume">
-            <li>Web and mobile application development</li>
-            <li>Information security, cryptography and penetration testing</li>
-            <li>Network administration, virtualization, cloud technologies</li>
-          </ul>
-        </div>
-      </div>
-      <br />
-      <hr>
-      <!-- End Professional Interests -->
-
-      <!-- Footer -->
-      <footer class="main-footer">
+    </div>
+    <!-- End Intro -->
+    <!-- Main Section -->
+    <div id="main">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-            <a href="#top">Back to Top<i class="fa fa-arrow-circle-up fa-fw"></i></a>
+          <div class="col-sm-8 divider-line">
+            <h2 class="main-title">Projects</h3>
+            <p class="text-center">Take a look at some of my work.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <a class="popup" data-content="Moodeo is my first hackathon project in 2 days me and my team managed to build an app capable of connecting two people via webcam and share videos based on the user's mood" data-toggle="popover" data-placement="top" href="#" data-original-title="Moodeo"><img class="projects" src="img/moodeo-intro.png"></a>
+              </div>
+              <div class="col-sm-6">
+                <a class="popup" data-content="FanClash is a web-based fantasy sports application that uses the pick five gameplay mode. Check it out at https://fan-clash.heroku.com" data-toggle="popover" data-placement="top" href="#" data-original-title="FanClash"><img class="projects" src="img/fanclash.png"></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <a class="popup" data-content="This one doesn't need much explanation is the website you are browsing right now" data-toggle="popover" data-placement="bottom" href="#" data-original-title="My Portfolio"><img class="projects" src="img/portfolio.jpg">
+              </div>
+              <div class="col-sm-6">
+                <a class="popup" data-content="This app is a game that mimics the dice game called 'Zombie Dice' it uses ruby, rails, and javascript" data-toggle="popover" data-placement="bottom" href="#" data-original-title="Rabbit Dice"><img class="projects" src="img/rabbit-dice.png"></a>
+              </div>
+            </div>
+            <br />
           </div>
-          <div class="col-sm-4">
-            <p>2014 &copy; Jose Borja.</p>
+          <div id="blog-section" class="col-sm-4">
+            <h2 class="main-title">Blog</h3>
+            <a href="#hack2" data-toggle="modal"><h4 class="post-title">&plus; Hackathon #2<span class="post-date">May 9, 2014</span></h4></a>
+            <p>We just finished our second hackathon this time it was a bit different there wasn't enough pressure like the first one, since whatever we start... <a href="#hack2" data-toggle="modal">Read more</a></p>
+            <hr>
+            <a href="#hack1" data-toggle="modal"><h4 class="post-title">&plus; Hackathon #1<span class="post-date">Apr 12, 2014</span></h4></a>
+            <p>So my first hackathon just finished a couple of days ago, and my team did really good. To be honest at the beginning I thought we were going to fail... <a href="#hack1" data-toggle="modal">Read more</a></p>
+            <hr>
+            <a href="#sxsw" data-toggle="modal"><h4 class="post-title">&plus; SXSW - Austin on Rails<span class="post-date">Mar 12, 2014</span></h4></a>
+            <p>So I was lucky enough to come to Austin by this time of the year I got to experience SXSW. SXSW, short for &quot;South by Southwest&quot;, is an annual... <a href="#sxsw" data-toggle="modal">Read more</a></p>
+            <hr>
+            <a href="#mks" data-toggle="modal"><h4 class="post-title">&plus; MakerSquare<span class="post-date">Mar 8, 2014</span></h4></a>
+            <p>What is MakerSquare? It's a school for full stack developers also referred to as a coding bootcamp. I think the term bootcamp is pretty accurate... <a href="#mks" data-toggle="modal">Read more</a></p>
           </div>
-          <div class="col-sm-4">
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- End Main -->
+    <!-- Footer -->
+    <hr>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-5">
+            <a href="#top">Back to Top<i class="fa fa-arrow-circle-up fa-lg fa-fw"></i></a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <p>2014 &copy; Jose R. Borja.</p>
+          </div>
+          <div class="col-xs-8 col-sm-4">
             <p class="pull-right"><a href="#contact" data-toggle="modal"><i class="fa fa-envelope fa-2x fa-fw"></i></a></p>
             <p class="pull-right"><a href="http://www.linkedin.com/pub/jose-borja/8b/749/6b0"><i class="fa fa-linkedin-square fa-2x fa-fw"></i></a></p>
             <p class="pull-right"><a href="https://github.com/Chakaitos"><i class="fa fa-github fa-2x fa-fw"></i></a></p>
+            <p class="pull-right"><a href="https://twitter.com/Chakaitos"><i class="fa fa-twitter fa-2x fa-fw"></i></a></p>
           </div>
         </div>
-      </footer>
-      <!-- End Footer -->
-    </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
     <!-- Contact Modal -->
     <div class="modal fade" id="contact" role="dialog">
@@ -329,6 +166,113 @@
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
     <!-- End Contact Modal -->
+
+    <!-- Blog Modals -->
+    <div class="modal fade" id="hack2" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">HACKATHON #2</h3>
+          </div>
+          <div class="modal-body">
+            <h4>Austin, TX - May 9, 2014</h4>
+              <p>We just finished our second hackathon this time it was a bit different there wasn't enough pressure like the first one, since whatever we start developing now will be the same as our final project. So we have about 3 weeks to work on implementing all features and come out with a complete functional app.</p>
+
+              <div class="blog-pics" align="center"><img class="sleep" src="img/sleep-cycle.gif"></div>
+
+              <p>Our project is called FanClash and it is a fantasy sports like app, but instead of using the traditional daily fantasy format, it uses the pick-5 format. It consist on 10 selected players from a round of games for example the NBA playoffs have two games tonight the &quot;Heat vs. Nets&quot; and &quot;Trail Blazers vs. Spurs&quot;, ten players will be selected from these two games and will be divided into 5 matchups of 2 players each for example &quot;Lebron James vs. Tim Duncan&quot; and 4 more matchups. The user will have to pick whoever they think will do better on each matchup for a total of 5 players selected. The players will receive a score based on their performance and stats on the game. The user who picks all correct will win, and in case of a tie there will be tiebreaker questions and whoever gets a the most accurate answer will be the winner.</p>
+
+              <p>The app is still in development and it won't have any real $ betting functionality until is fully tested and secured. It will also have a functionality to play with friends. The app is progressing fast and we are working hard in getting it to state that is fully functional to release the first version of it, but on the meantime if you want to see how it works and want to test it you can visit http://fan-clash.herokuapp.com/</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="hack1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">HACKATHON #1</h3>
+          </div>
+          <div class="modal-body">
+            <h4>Austin, TX - Apr 12, 2014</h4>
+              <p>So my first hackathon just finished a few days ago, and my team did really good. To be honest at the beginning I thought we were going to fail really bad, I thought our project was way out of our league. In 2 days we had to build an app called &quot;Moodeo&quot;, with this app you are able to have a video call with a friend and both are able to watch a video at the same time, this will be a random video that will be selected from our database based on the user's mood (ex: If user selects the mood &quot;funny&quot;, a funny video show for both users).</p>
+
+              <p>The hackathon started Monday at 9am and ended with presentations on Tuesday 5pm. We met on that Saturday before the hackathon trying to get everything in order, taking care of the planning, and the approaches that we were going to take. I have to admit even though we spend quite some time planning we would take long breaks sometimes to play &quot;League of Legends&quot; and clear our minds.</p>
+
+              <div class="blog-pics" align="center"><img src="img/hackathon.jpg"></div>
+
+              <p>Monday arrived and the hackathon started. I must say that we did not have it easy, we were not able to use Rails for this app, we had to write all our backend code in Ruby using of course TDD (Test driven development), we had to have persistence in our data, and use HTML and CSS along with Sinatra to build the client interface. We had very little knowledge of how to add a persistent database, and also had no experience with APIs yet. For this project we also had to use an API called &quot;Opentok&quot; to help us with the video call functionality. We implemented this with Javascript to make the conections and Ruby to generated the session keys necessary to establish a connection between the users.</p>
+
+              <p>We did not get much rest before the start. The day the hackathon started I was fine, but after a full day of coding and writing over 1k lines of code between tests, use cases and methods for our app by 3am I was dead we finally ended up going to bed at 4am. Unfortunately even though I was extremely tired and running in autopilot, when I laid down in my bed, my brain was rolling at 10k RPM. I had at mix of random thoughts about 80% were code related but everything was unrelated and unorganized and I couldn't sleep.</p>
+
+              <p>I woke up at 7am got ready and went back to work on the app, I was very tired but at least regained some energy that helped me through the rest of the day, by around 12-1pm we had our back-end code about 90% finished, and probably about 75% for the front-end part. We still had to implement the main part of our app the video call between users and since we had never worked with APIs we had no idea on how to proceed. Short story we ended up reading a lot of documentation and experimenting with the API and finally about 30 mins before presentation we got it working. In the last 30 mins we had, we implemented it in our client interface and it was a success for the presentation. Even though we had a pretty good product and our presentation was pretty cool we did not have enough time to implement the part with the video playback based on users mood, but I must say what we delivered was pretty fuckin awesome, just by hearing the audience reaction when we tested the video call was good enough (literally I heard a few &quot;Wow!!... What the fuck?!&quot; from the people on the class before us).</p>
+
+              <h4>Post hackathon mistakes...</h4>
+
+              <p>So when the hackathon was over, we still had a beer keg for us to celebrate. I should have gone to sleep and recover, but I decided to stay and play many beer pong games. Up to this point I guess we had finished the keg and again I should have gone to get some rest, but no I went to play some League of Legends, stayed up to who knows what time playing and after that I was a zombie for the rest of the week, and some days of the week after, definitely going to limit if not stop playing LoL for good.</p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="sxsw" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">SXSW &amp; AUSTIN ON RAILS</h3>
+          </div>
+          <div class="modal-body">
+            <h4>Austin, TX - Mar 12, 2014</h4>
+              <p>So I was lucky enough to come to Austin by this time of the year I got to experience SXSW. SXSW, short for &quot;South by Southwest&quot;, is an annual national music and film festival held in Austin, Texas.  They feature major musical artists in a line-up along with film, &quot;interactive&quot; and comedy subdivisions. It is the largest music festival in the world.</p>
+
+              <div class="blog-pics" align="center"><img class="sxsw" src="img/sxsw.jpg"></div>
+
+              <p>Lucky me that the lady that I was staying with was a promoter for many bands coming so I got to go to many events for free. To put the cherry on top of the icing there was this event for Rails developers at Buffalo Billiards, hosted by an organization called Austin on Rails. I don't know how much this event costs but I got in for free courtesy of Makersquare.</p>
+
+              <p>This event was open bar and full of developers from everywhere, I met people from different states, and other countries like Argentina or the UK I got to play some ping pong with the developers at Lonely Planet. After a couple of beers I realized that the scotch was free as well FUCK YEAH!! (Black Label and above not that cheap Dewards crap). I forgot to mention that I also got free shirts from different tech companies. Free music events, free booze, free food, free developer events, and free shirts... can this get any better?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mks" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">MAKERSQUARE</h3>
+          </div>
+          <div class="modal-body">
+            <h4>Austin, TX - Mar 8, 2014</h4>
+              <p>What is MakerSquare? It's a school for full stack developers also referred to as a coding bootcamp. I think the term bootcamp is pretty accurate due to the intensity, discipline and dedication you have to put into it.</p>
+
+              <div class="blog-pics" align="center"><img src="img/mks-logo.jpg"></div>
+
+              <p>Before attending MakerSquare I had seen code before since I was an IT major I had been exposed to some code but nothing to deep and I tried to teach myself by reading books, following tutorials or online courses, and I did learn some stuff but there is a lot key things that I was missing. These key things include deep understanding of concepts, pair programming or working with a team, the importance of writing tests for our code, be a pro googler, and most important to think as a developer, among other things.</p>
+
+              <p>The decision was not easy as I had to quit my job and move from Florida to Texas, take out a loan, and rent a room in a house from a person I don't know. I guess later I will find out if all this was worth itor not, also due to the intensity of the program I wonder how many people will leave before the program is done?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modals -->
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
